@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+//生成方法  protoc --go_out=plugins=grpc:./ hello.proto
+
+package main;
+
+message HelloMessage {
+    string msg = 1;
+}
+
+service HelloService {
+    rpc Hello (HelloMessage) returns (HelloMessage);
+}
