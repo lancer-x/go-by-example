@@ -1,0 +1,10 @@
+.dockerignore
+.idea/
+.med/
+main
+.DS_Store
+go_build_main_go__1_
+run_api
+run_sempage
+go.sum
+cov.out
