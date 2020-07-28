@@ -1,19 +1,23 @@
-module gin-example
+module go-by-example
 
 go 1.13
 
 require (
+	github.com/astaxie/beego v1.12.2
+	github.com/bxcodec/faker/v3 v3.5.0 // indirect
+	github.com/denisenkom/go-mssqldb v0.0.0-20200620013148-b91950f658ec // indirect
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/golang/protobuf v1.3.3
+	github.com/golang/protobuf v1.4.2
 	github.com/guonaihong/gout v0.1.0
-	github.com/kr/pretty v0.1.0 // indirect
+	github.com/guregu/null v3.4.0+incompatible
+	github.com/lib/pq v1.8.0 // indirect
 	github.com/mitchellh/mapstructure v1.3.2
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
-	golang.org/x/net v0.0.0-20200114155413-6afb5195e5aa
-	google.golang.org/genproto v0.0.0-20191108220845-16a3f7862a1a // indirect
-	google.golang.org/grpc v1.25.1
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+	github.com/satori/go.uuid v1.2.0
+	github.com/smallnest/gen v0.9.25 // indirect
+	golang.org/x/net v0.0.0-20200625001655-4c5254603344
+	golang.org/x/sys v0.0.0-20200727154430-2d971f7391a4 // indirect
+	google.golang.org/grpc v1.29.1
 	gopl.io v0.0.0-20200323155855-65c318dde95e
+	gorm.io/gorm v0.2.25
 )

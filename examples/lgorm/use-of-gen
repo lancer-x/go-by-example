@@ -1,0 +1,1 @@
+gen  --sqltype=mysql --connstr "root:123456@tcp(127.0.0.1:3306)/ladmin" --database ladmin --table admin_menu --module=go-by-example/examples/lgorm/model --out ./examples/lgorm --generate-dao --generate-proj --json --gorm --guregu --overwrite

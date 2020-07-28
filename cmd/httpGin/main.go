@@ -2,16 +2,24 @@ package main
 
 import (
 	"encoding/json"
+	"go-by-example/cmd/httpGin/lmiddleware"
 	"github.com/gin-gonic/gin"
 )
 
 func main()  {
 	r := gin.Default()
-	r.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message" : "pong",
+
+	v1 := r.Group("/v1")
+	v1.Use(lmiddleware.TokenChecker())
+	{
+		v1.GET("/ping", func(c *gin.Context) {
+			c.JSON(200, gin.H{
+				"message" : "pong",
+			})
 		})
-	})
+	}
+
+
 
 	r.POST("/colorjson", func(c *gin.Context) {
 		c.JSON(200, gin.H{"str": "str-val", "int": 1})
