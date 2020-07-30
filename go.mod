@@ -11,6 +11,7 @@ require (
 	github.com/golang/protobuf v1.4.2
 	github.com/guonaihong/gout v0.1.0
 	github.com/guregu/null v3.4.0+incompatible
+	github.com/jinzhu/gorm v1.9.15 // indirect
 	github.com/lib/pq v1.8.0 // indirect
 	github.com/mitchellh/mapstructure v1.3.2
 	github.com/satori/go.uuid v1.2.0
@@ -19,5 +20,6 @@ require (
 	golang.org/x/sys v0.0.0-20200727154430-2d971f7391a4 // indirect
 	google.golang.org/grpc v1.29.1
 	gopl.io v0.0.0-20200323155855-65c318dde95e
+	gorm.io/driver/mysql v0.3.1
 	gorm.io/gorm v0.2.25
 )

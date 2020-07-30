@@ -30,7 +30,7 @@ var (
 func init() {
 	tables = make(map[string]*TableInfo)
 
-	tables["admin_menu"] = admin_menuTableInfo
+	tables["report_test"] = report_testTableInfo
 }
 
 // String describe the action
