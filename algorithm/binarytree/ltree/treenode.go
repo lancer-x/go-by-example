@@ -8,6 +8,8 @@ type BinaryTree struct {
 	RightChild *BinaryTree
 }
 
+
+
 func init()  {
 
 }
