@@ -1,7 +1,7 @@
 package main
 
 type TreeNode struct {
-	Value int
+	Val int
 	Left *TreeNode
 	Right *TreeNode
 }
