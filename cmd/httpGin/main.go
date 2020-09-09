@@ -29,7 +29,7 @@ func main()  {
 	})
 
 	r.Any("/backraw", func(c *gin.Context) {
-		bodyRaw,_ := c.GetRawData();
+		bodyRaw,_ := c.GetRawData()
 		var body map[string]interface{}
 		if err := json.Unmarshal(bodyRaw, &body); err != nil {
 			c.JSON(200, gin.H{"msg": err.Error()})
