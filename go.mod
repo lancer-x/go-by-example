@@ -11,7 +11,9 @@ require (
 	github.com/golang/protobuf v1.4.2
 	github.com/guonaihong/gout v0.1.0
 	github.com/guregu/null v3.4.0+incompatible
+	github.com/jinzhu/gorm v1.9.16
 	github.com/mitchellh/mapstructure v1.3.2
+	github.com/panjf2000/ants/v2 v2.4.3
 	github.com/satori/go.uuid v1.2.0
 	github.com/stretchr/testify v1.5.1 // indirect
 	github.com/tidwall/gjson v1.6.1
