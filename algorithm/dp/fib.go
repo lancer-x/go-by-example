@@ -13,5 +13,6 @@ func recursiveSolution(n int) int{
 	if n <= 1 {
 		return n
 	}
+
 	return recursiveSolution(n - 1) + recursiveSolution(n - 2)
 }
