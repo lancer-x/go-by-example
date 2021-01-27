@@ -1,5 +1,6 @@
 .dockerignore
 .idea/
+.vscode/
 .med/
 vendor/
 main
