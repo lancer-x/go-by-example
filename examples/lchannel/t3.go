@@ -18,3 +18,7 @@ func main() {
 	ch <- "bbb"
 	ch <- "ccc"
 }
+
+func test() {
+
+}
