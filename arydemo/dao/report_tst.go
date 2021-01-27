@@ -2,12 +2,11 @@ package dao
 
 import (
 	"context"
+	"got/arydemo/model"
 	"time"
 
-	"example.com/example/model"
-
 	"github.com/guregu/null"
-	"github.com/satori/go.uuid"
+	uuid "github.com/satori/go.uuid"
 )
 
 var (
