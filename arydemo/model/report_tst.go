@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/guregu/null"
-	"github.com/satori/go.uuid"
+	uuid "github.com/satori/go.uuid"
 )
 
 var (
@@ -109,7 +109,7 @@ var report_testTableInfo = &TableInfo{
 	Name: "report_test",
 	Columns: []*ColumnInfo{
 
-		&ColumnInfo{
+		{
 			Index:              0,
 			Name:               "id",
 			Comment:            `自增id`,
@@ -130,7 +130,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        1,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              1,
 			Name:               "type",
 			Comment:            `媒体类型`,
@@ -151,7 +151,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        2,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              2,
 			Name:               "callback",
 			Comment:            `头条`,
@@ -172,7 +172,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        3,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              3,
 			Name:               "source",
 			Comment:            `头条`,
@@ -193,7 +193,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        4,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              4,
 			Name:               "conv_time",
 			Comment:            `头条`,
@@ -214,7 +214,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        5,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              5,
 			Name:               "event_type",
 			Comment:            `头条`,
@@ -235,7 +235,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        6,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              6,
 			Name:               "header",
 			Comment:            `神马`,
@@ -256,7 +256,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        7,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              7,
 			Name:               "body",
 			Comment:            `神马`,
@@ -277,7 +277,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        8,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              8,
 			Name:               "account_id",
 			Comment:            `广点通`,
@@ -298,7 +298,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        9,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              9,
 			Name:               "user_action_set_id",
 			Comment:            `广点通`,
@@ -319,7 +319,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        10,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              10,
 			Name:               "actions",
 			Comment:            `广点通`,
@@ -340,7 +340,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        11,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              11,
 			Name:               "event_time",
 			Comment:            `快手`,
@@ -361,7 +361,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        12,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              12,
 			Name:               "eventTime",
 			Comment:            `快手`,
@@ -382,7 +382,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        13,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              13,
 			Name:               "jsEventType",
 			Comment:            `快手线索`,
@@ -403,7 +403,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        14,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              14,
 			Name:               "eventType",
 			Comment:            `快手线索`,
@@ -424,7 +424,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        15,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              15,
 			Name:               "created_at",
 			Comment:            `创建时间,即折损时间`,
@@ -445,7 +445,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        16,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              16,
 			Name:               "updated_at",
 			Comment:            `更新时间`,
@@ -466,7 +466,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        17,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              17,
 			Name:               "token",
 			Comment:            ``,
@@ -487,7 +487,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        18,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              18,
 			Name:               "conversionTypes",
 			Comment:            ``,
@@ -508,7 +508,7 @@ var report_testTableInfo = &TableInfo{
 			ProtobufPos:        19,
 		},
 
-		&ColumnInfo{
+		{
 			Index:              19,
 			Name:               "purchase_amount",
 			Comment:            `快手金额`,

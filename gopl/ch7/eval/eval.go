@@ -34,9 +34,9 @@ func (l literal) Eval(_ Env) float64 {
 func (u unary) Eval(env Env) float64 {
 	switch u.op {
 	case '+':
-		return +Eval(env)
+		return +u.Eval(env)
 	case '-':
-		return -Eval(env)
+		return -u.Eval(env)
 	}
 	panic(fmt.Sprintf("unsupported unary operator: %q", u.op))
 }
@@ -44,13 +44,13 @@ func (u unary) Eval(env Env) float64 {
 func (b binary) Eval(env Env) float64 {
 	switch b.op {
 	case '+':
-		return Eval(env) + Eval(env)
+		return b.Eval(env) + b.Eval(env)
 	case '-':
-		return Eval(env) - Eval(env)
+		return b.Eval(env) - b.Eval(env)
 	case '*':
-		return Eval(env) * Eval(env)
+		return b.Eval(env) * b.Eval(env)
 	case '/':
-		return Eval(env) / Eval(env)
+		return b.Eval(env) / b.Eval(env)
 	}
 	panic(fmt.Sprintf("unsupported binary operator: %q", b.op))
 }
