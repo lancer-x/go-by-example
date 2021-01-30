@@ -29,7 +29,6 @@ func main() {
 	tasks := make([]*Task, len(names))
 
 	for k, name := range names {
-
 		tasks[k] = &Task{
 			name: name,
 			ch:   make(chan int),
