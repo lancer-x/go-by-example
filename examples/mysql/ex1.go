@@ -3,11 +3,12 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
 	"log"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
-func main()  {
+func main() {
 	var db, err = sql.Open("mysql", "root:123456@tcp(127.0.0.1:3306)/october")
 	if err != nil {
 		log.Fatal(err)
@@ -15,12 +16,12 @@ func main()  {
 	defer db.Close()
 
 	var (
-		id int
+		id        int
 		migration string
 	)
 	rows, err := db.Query("select id,migration from migrations")
 
-	if err !=nil {
+	if err != nil {
 		log.Fatal(err)
 	}
 
