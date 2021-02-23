@@ -9,6 +9,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.4.2 // indirect
+	github.com/google/wire v0.5.0
 	github.com/guonaihong/gout v0.1.0
 	github.com/guregu/null v3.4.0+incompatible
 	github.com/jinzhu/gorm v1.9.16
