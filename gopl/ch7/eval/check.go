@@ -30,10 +30,10 @@ func (b binary) Check(vars map[Var]bool) error {
 	if !strings.ContainsRune("+-*/", b.op) {
 		return fmt.Errorf("unexpected binary op %q", b.op)
 	}
-	if err := Check(vars); err != nil {
+	if err := b.Check(vars); err != nil {
 		return err
 	}
-	return Check(vars)
+	return b.Check(vars)
 }
 
 func (c call) Check(vars map[Var]bool) error {
@@ -46,7 +46,7 @@ func (c call) Check(vars map[Var]bool) error {
 			c.fn, len(c.args), arity)
 	}
 	for _, arg := range c.args {
-		if err := Check(vars); err != nil {
+		if err := c.Check(vars); err != nil {
 			return err
 		}
 	}

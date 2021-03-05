@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func main()  {
+func main4()  {
 	a := lprint("aaaa")
 	fmt.Println(a)
 

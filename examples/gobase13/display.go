@@ -11,7 +11,7 @@ type person struct {
 	age int
 }
 
-func main()  {
+func main3()  {
 	p := person{
 		name: "lixiaoru",
 		age:  20,

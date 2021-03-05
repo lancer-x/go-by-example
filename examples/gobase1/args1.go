@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main()  {
+func main2()  {
 	var s, sep string
 
 	for i := 1; i< len(os.Args); i++ {

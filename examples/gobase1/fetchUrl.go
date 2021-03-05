@@ -12,7 +12,7 @@ import (
 
 var result = make(map[string]int)
 
-func main()  {
+func main1()  {
 	runMore()
 	fmt.Println(result)
 }

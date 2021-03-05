@@ -28,7 +28,7 @@ func TestCoverage(t *testing.T) {
 	for _, test := range tests {
 		expr, err := Parse(test.input)
 		if err == nil {
-			err = Check(map[Var]bool{})
+			err = expr.Check(map[Var]bool{})
 		}
 		if err != nil {
 			if err.Error() != test.want {
@@ -37,7 +37,7 @@ func TestCoverage(t *testing.T) {
 			continue
 		}
 
-		got := fmt.Sprintf("%.6g", Eval(test.env))
+		got := fmt.Sprintf("%.6g", expr.Eval(test.env))
 		if got != test.want {
 			t.Errorf("%s: %v => %s, want %s",
 				test.input, test.env, got, test.want)

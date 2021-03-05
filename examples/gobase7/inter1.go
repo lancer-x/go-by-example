@@ -23,7 +23,7 @@ func (d demoWriter) showLen() {
 	fmt.Printf("%d---\n", len(d.buf))
 }
 
-func main()  {
+func main1()  {
 	var w io.Writer
 	var r io.Reader
 	d := &demoWriter{}
@@ -32,7 +32,7 @@ func main()  {
 	r = &demoWriter{}
 
 	len,_ := w.Write([]byte{'1','2','3'})
-	fmt.Println()
+	fmt.Println(len, r)
 
 	d.showLen()
 

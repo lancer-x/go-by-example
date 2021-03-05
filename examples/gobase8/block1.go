@@ -10,7 +10,7 @@ var ch1 = make(chan string, 5)
 
 //var ch2 = make(chan string)
 
-func main()  {
+func main2()  {
 	go func() {
 		ticker := time.NewTicker(1 * time.Second)
 		defer ticker.Stop()

@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main1()  {
 	go spinner(100 * time.Millisecond)
 	fibR := fib(45)
 	fmt.Println(fibR)

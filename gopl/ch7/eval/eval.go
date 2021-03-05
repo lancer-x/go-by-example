@@ -58,11 +58,11 @@ func (b binary) Eval(env Env) float64 {
 func (c call) Eval(env Env) float64 {
 	switch c.fn {
 	case "pow":
-		return math.Pow(Eval(env), Eval(env))
+		return math.Pow(c.Eval(env), c.Eval(env))
 	case "sin":
-		return math.Sin(Eval(env))
+		return math.Sin(c.Eval(env))
 	case "sqrt":
-		return math.Sqrt(Eval(env))
+		return math.Sqrt(c.Eval(env))
 	}
 	panic(fmt.Sprintf("unsupported function call: %s", c.fn))
 }

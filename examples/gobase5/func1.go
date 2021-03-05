@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main1()  {
 	b := doadd(5, addone)
 	fmt.Println(b)
 

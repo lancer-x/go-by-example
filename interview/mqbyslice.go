@@ -32,7 +32,7 @@ func (q *lmq) pop() (ret int, err error) {
 	return 0, fmt.Errorf("empty q")
 }
 
-func main() {
+func main1() {
 	myQ := newLmq()
 	var wg sync.WaitGroup
 	wg.Add(4)
