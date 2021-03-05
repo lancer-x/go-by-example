@@ -49,7 +49,7 @@ var json1 = `{
     "url": "/backraw?q1=1\u0026q2=qq2"
 }`
 
-func main()  {
+func maine()  {
 	map1 := make(map[string]interface{})
 	var map2 httpData
 

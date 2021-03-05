@@ -18,7 +18,7 @@ type Screen struct {
 	Height int
 }
 
-func main()  {
+func main2()  {
 	phone := Phone{
 		Ascreen: Screen{
 			Width:  50,

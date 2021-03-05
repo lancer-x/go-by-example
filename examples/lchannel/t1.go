@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func mainb()  {
 	result := func() <-chan int {
 		ch := make(chan int)
 		go func() {

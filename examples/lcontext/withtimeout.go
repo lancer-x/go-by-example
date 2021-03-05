@@ -47,7 +47,7 @@ func process()  {
 	return
 }
 
-func main()  {
+func main8()  {
 	process()
 }
 

@@ -16,7 +16,7 @@ func Test(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Form", r.PostForm)
 }
 
-func main() {
+func main5() {
 	http.HandleFunc("/test", Test)
 	http.ListenAndServe(":9999", nil)
 }

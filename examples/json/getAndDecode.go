@@ -35,7 +35,7 @@ type CarImageItem struct {
 }
 
 const url  = "http://open.guazi.com/api/v1/cars?account=dongchedi&token=732bef746ed7d330d067cff37fe77628a9c590fe"
-func main()  {
+func main66()  {
 	data := getData()
 	//parseJsonStr(data)
 	direct2Struct(data)

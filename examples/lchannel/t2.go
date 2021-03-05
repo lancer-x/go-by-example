@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func main3() {
 	var ch chan int
 	select {
 	case <-ch:

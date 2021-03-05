@@ -3,7 +3,7 @@ package main
 import (
 	log "github.com/sirupsen/logrus"
 )
-func main() {
+func main2() {
 	log.SetReportCaller(true)
 	log.SetFormatter(&log.JSONFormatter{})
 	log.SetLevel(log.InfoLevel)

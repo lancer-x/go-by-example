@@ -5,7 +5,7 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
+func main1() {
 	s := "this is 中国"
 	fmt.Println(len(s))
 

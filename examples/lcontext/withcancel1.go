@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func main7() {
 	ctx, cancel := context.WithCancel(context.Background())
 	go watch(ctx, "任务1")
 	go watch(ctx, "任务2")

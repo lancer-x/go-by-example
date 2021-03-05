@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/go-redis/redis"
-	"net"
 	"time"
 )
 

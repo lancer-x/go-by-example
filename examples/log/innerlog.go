@@ -2,7 +2,7 @@ package main
 
 import "log"
 
-func main()  {
+func main1()  {
 	log.Println("haha")
 
 	log.SetFlags(log.Llongfile | log.Lmicroseconds | log.Ldate)

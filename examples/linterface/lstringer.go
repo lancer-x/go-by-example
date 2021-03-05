@@ -26,7 +26,7 @@ func lprint(s lstringer)  {
 	fmt.Println(s.toString())
 }
 
-func main()  {
+func main6()  {
 	aCountry := country{
 		name: "中国",
 	}

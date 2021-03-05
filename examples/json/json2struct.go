@@ -15,7 +15,7 @@ type params struct {
 	//TmpTests string                 `json:"tmpTests"` 正确的
 }
 
-func main() {
+func mainf() {
 	tmp := make(map[string]interface{})
 	//tmp["id"] = "123"
 	//tmp["query"] = []string{"qwe", "wer", "ert"}

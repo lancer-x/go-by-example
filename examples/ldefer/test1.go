@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main20() {
 	func() {
 		for i := 0; i < 3; i++ {
 			defer fmt.Println("a:", i)

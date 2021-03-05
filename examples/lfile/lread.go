@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main()  {
+func main3()  {
 	file := "/Users/lightli/data/userphone.csv"
 	c1 := read1(file)
 	c2 := read2(file)

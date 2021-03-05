@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func main11() {
 	//主动取消
 	ctx, cancel := context.WithTimeout(context.Background(), 10 * time.Second)
 	go childDo(ctx, "任务1")
