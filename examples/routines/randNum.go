@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main1()  {
 	ch := make(chan int)
 
 	go func() {

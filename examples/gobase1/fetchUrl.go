@@ -41,11 +41,11 @@ func runMore()  {
 	count := len(os.Args[1:])
 	wg.Add(count)
 	for _, url := range os.Args[1:]{
-		go func() {
+		go func(url string) {
 			s := getUrl(url)
 			setMap(url, &s)
 			wg.Done()
-		}()
+		}(url)
 	}
 	wg.Wait()
 }

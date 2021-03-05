@@ -7,7 +7,7 @@ import (
 	"log"
 )
 
-func main()  {
+func main1()  {
 	conn, err := grpc.Dial("localhost:1234", grpc.WithInsecure())
 
 	if err != nil {

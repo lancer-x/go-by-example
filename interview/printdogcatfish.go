@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main2() {
 	sigChan := make(chan int)
 	catChan := make(chan int)
 	dogChan := make(chan int)

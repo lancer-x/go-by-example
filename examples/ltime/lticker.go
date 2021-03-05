@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main3()  {
 	flag := make(chan int)
 	t := time.NewTicker(1 * time.Second)
 	defer t.Stop()

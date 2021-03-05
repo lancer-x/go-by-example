@@ -5,7 +5,7 @@ import (
 )
 
 //pirnt fish cat dog
-func main() {
+func main3() {
 	sigChan := make(chan int)
 	fishChan := make(chan int)
 	catChan := make(chan int)

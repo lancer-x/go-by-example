@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main2()  {
 	stream := make(chan string)
 	stream2 := make(chan string)
 	go service1(stream)

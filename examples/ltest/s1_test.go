@@ -1,4 +1,4 @@
-package ltest
+package main
 
 import (
 	"fmt"
