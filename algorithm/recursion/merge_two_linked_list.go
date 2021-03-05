@@ -1,22 +1,22 @@
 package main
 
-import "hash"
+//import "hash"
 
-type ListNode struct {
+type ListNode1 struct {
 	Val int
-	Next *ListNode
+	Next *ListNode1
 }
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists(l1 *ListNode1, l2 *ListNode1) *ListNode1 {
 	if l1 == nil {
 		return l2
 	}
 	if l2 == nil {
 		return l1
 	}
-	var nextHead *ListNode
+	var nextHead *ListNode1
 
-	var head *ListNode
+	var head *ListNode1
 
 	if l1.Val < l2.Val {
 		head = l1

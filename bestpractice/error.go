@@ -21,7 +21,7 @@ error 是不是从下游函数传递过来的？如果是，考虑一下 error w
 其他情况，fmt.Errorf 一般足够了。
  */
 
-func main()  {
+func main5()  {
 
 }
 

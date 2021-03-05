@@ -1,8 +1,8 @@
 package main
 
-import "linked"
+//import "got/linked"
 
-func main() {
+func main1() {
 
 }
 
@@ -11,7 +11,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func hasCycle(head *linked.ListNode) bool {
+func hasCycle(head *Node) bool {
 	if head == nil || head.Next == nil {
 		return false
 	}

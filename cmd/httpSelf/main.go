@@ -2,7 +2,7 @@ package main
 
 import "net/http"
 
-func main()  {
+func main1()  {
 	http.HandleFunc("/info1", func(writer http.ResponseWriter, request *http.Request) {
 		writer.Write([]byte("info1"))
 	})

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-by-example/aries"
+	"got/aries"
 	"net/http"
 )
 

@@ -5,8 +5,8 @@ func main()  {
 
 }
 
-func reverse(head *linked.Node) *linked.Node {
-	var prev *linked.Node
+func reverse(head *Node) *Node {
+	var prev *Node
 	for head != nil {
 		//为了断开当前节点与后一个节点的联系，将后一个节点位置记录下来
 		temp := head.Next

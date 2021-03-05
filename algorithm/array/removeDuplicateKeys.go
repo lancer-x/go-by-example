@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main1()  {
 	a := []int{0,0,0,0,1,1,1,2,3,3,4,4,4,4,4,4,6,7}
 	solution(a)
 }

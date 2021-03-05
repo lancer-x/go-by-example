@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func main2() {
 	a := []int{0, 1, 0, 3, 12}
 	moveZeroes(a)
 }

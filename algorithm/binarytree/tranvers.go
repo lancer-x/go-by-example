@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-by-example/algorithm/binarytree/ltree"
+	"got/algorithm/binarytree/ltree"
 )
 
 func main()  {

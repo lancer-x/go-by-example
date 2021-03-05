@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"go-by-example/cmd/httpGin/lmiddleware"
+	"got/cmd/httpGin/lmiddleware"
 	"github.com/gin-gonic/gin"
 )
 

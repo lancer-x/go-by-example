@@ -2,7 +2,7 @@ package dao
 
 import (
 	"context"
-	"go-by-example/examples/lgorm/model"
+	"got/examples/lgorm/model"
 	"time"
 
 	"github.com/guregu/null"

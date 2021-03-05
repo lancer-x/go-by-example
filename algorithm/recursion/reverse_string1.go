@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func reverseString(s []byte)  {
-	str := []byte{"H","a","n","n","a","h"}
+	str := []byte{'H','a','n','n','a','h'}
 	reverse(str, 0, len(str) - 1)
 	fmt.Println(str)
 }

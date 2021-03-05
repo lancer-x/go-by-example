@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"go-by-example/util"
+	"got/util"
 	"strconv"
 
 	//"github.com/guregu/null"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"go-by-example/examples/lgorm/model"
+	"got/examples/lgorm/model"
 	"time"
 )
 

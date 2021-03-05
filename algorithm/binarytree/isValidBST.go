@@ -8,7 +8,7 @@ type res struct {
 	MinRightVal int
 }
 
-func main()  {
+func main1()  {
 
 }
 

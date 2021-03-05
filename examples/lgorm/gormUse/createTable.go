@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"gorm.io/driver/mysql"
-	"go-by-example/examples/lgorm/model"
+	"got/examples/lgorm/model"
 	"gorm.io/gorm"
 	_ "github.com/go-sql-driver/mysql"
 	"time"

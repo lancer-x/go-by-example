@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"go-by-example/examples/lgorm/model"
+	"got/examples/lgorm/model"
 
 	"github.com/guregu/null"
 	"github.com/satori/go.uuid"

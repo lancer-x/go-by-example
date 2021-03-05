@@ -1,5 +1,5 @@
 package aries
 
 type db struct {
-	dbList map[string]
+	dbList map[string]int
 }

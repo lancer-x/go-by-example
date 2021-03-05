@@ -4,7 +4,7 @@ import "math"
 import "fmt"
 
 var memo = make(map[int]int)
-func main()  {
+func main1()  {
 	coins := []int{2,5,7}
 	//memo[0] = 0
 	/*for v := range coins {
