@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-    //test1()
-    test2()
+    test1()
+    //test2()
 }
 
 func test1 () {
@@ -27,5 +27,6 @@ func test1 () {
 func test2() {
     a := 5
     b := 8.1
-    fmt.Println(a + b)
+    //fmt.Println(a + b)
+    fmt.Println(a, b)
 }
